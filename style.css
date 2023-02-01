@@ -4,21 +4,21 @@
   }
   
   body {
-    background: #8990ec;
+    background: #20262E;
   }
   
   .wrapper {
-    height: 525px;
+    height: 460px;
     width: 360px;
     color: white;
-    background: #272639;
+    background: #913175;
     border-radius: 1rem;
-    padding: 1.2rem;
+    padding: 24px;
     margin: 100px auto;
   }
   
   #topContainer {
-    margin-top: 4rem;
+    margin-top: 32px;
   }
   
   .container {
@@ -31,7 +31,7 @@
   }
   
   .inputContainer {
-    background: #353959;
+    background: #CD5888;
     border-radius: 1.4rem;
     padding: 0 0.8rem;
     display: flex;
@@ -41,6 +41,7 @@
   #billTotalInput,
   #tipInput {
     font-size: 1.2rem;
+    color: #fcfcff;
     background: none;
     border: none;
     outline: none;
@@ -74,7 +75,7 @@
   }
   
   .buttonText {
-    color: #353959 !important;
+    color: #fff !important;
   }
   
   .splitAmount {
@@ -97,3 +98,23 @@
     font-size: 2rem;
   }
   
+  ::placeholder{
+    color: #ffc2c2;
+  }
+
+  .reset{
+    position: relative;
+    margin-top: 84px;
+    font-size: 16px;
+    width: 100%;
+    color: #913175;
+    line-height: 16px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #E9E8E8;
+  }
+
+  .h3{
+    margin:auto 148px;
+  }
